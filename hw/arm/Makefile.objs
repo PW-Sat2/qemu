@@ -29,4 +29,5 @@ obj-$(CONFIG_LPC) += lpc-mcus.o lpc-boards.o
 obj-$(CONFIG_TIVA) += tiva-mcus.o tiva-boards.o
 obj-$(CONFIG_XMC) += xmc-mcus.o xmc-boards.o
 obj-$(CONFIG_SAM) += sam-mcus.o sam-boards.o
+obj-$(CONFIG_EFM32) += efm32-mcu.o efm32-mcus.o
 # [GNU ARM Eclipse]
