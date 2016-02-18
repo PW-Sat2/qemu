@@ -43,12 +43,6 @@ static void efm32_mcu_reset_callback(DeviceState *dev)
 
   /* Call parent reset(). */
   cm_device_parent_reset(dev, TYPE_EFM32_MCU);
-
-  EFM32MCUState *state = EFM32_MCU_STATE(dev);
-
-  // if (state->flash) {
-  //     device_reset(state->flash);
-  // }
 }
 
 static void efm32_mcu_memory_regions_create_callback(DeviceState *dev)
