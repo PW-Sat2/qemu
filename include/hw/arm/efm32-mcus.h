@@ -4,6 +4,7 @@
 #include "hw/arm/efm32-mcu.h"
 
 #define TYPE_EFM32GG990F1024 "EFM32GG990F1024"
+#define TYPE_EFM32GG990F1024_BIG "EFM32GG990F1024_BIG"
 
 /* Parent definitions. */
 #define TYPE_EFM32_DEVICE_PARENT TYPE_EFM32_MCU

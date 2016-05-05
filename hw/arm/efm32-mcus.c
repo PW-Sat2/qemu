@@ -33,6 +33,15 @@ static const EFM32PartInfo efm32_mcus[] = {
     .efm32 = &efm32gg990
   },
   {
+    .name = TYPE_EFM32GG990F1024_BIG,
+    .cortexm = {
+      .flash_size_kb = 20480,
+      .sram_size_kb = 8192,
+      .core = &efm32gg_core
+    },
+    .efm32 = &efm32gg990
+  },
+  {
     .name = 0
   }
 };
